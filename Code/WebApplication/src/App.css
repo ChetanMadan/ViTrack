@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*:focus {
+  outline: none;
+}
+body {
+  /* background-image: linear-gradient(to bottom, #ffffff, #ffa162); */
+  background: url(./assets/pattern1.svg);
+  font-family: "Roboto", sans-serif;
+}
+.con {
+  font-family: "Roboto", sans-serif;
+}
+
+.nav-logo {
+  min-height: 4rem;
+  min-width: 8rem;
+  margin: 0.5rem;
+}
+/* Horizontal Lists */
+nav {
+  top: 0;
+  position: sticky;
+  width: 100%;
+  min-height: 12vh;
+  background: white;
+  z-index: 3;
+}
+.horizontal-list {
+  list-style: none;
+  margin-top: 1rem;
+}
+.horizontal-list li {
+  margin: 0 1rem;
+}
+
+.horizontal-list li a {
+  color: rgb(108, 108, 108);
+  text-decoration: none;
+  transition: color 0.5s, border-bottom;
+}
+
+.horizontal-list li a:hover {
+  border-bottom: 0.4rem solid rgb(108, 108, 108);
+}
+
+#para {
+  margin-left: 10%;
+  margin-right: 10%;
+  border-width: 2px solid white;
+}
+section {
+  margin: 6rem 0;
+}
+
+p {
+  text-align: center;
+  font-size: 1rem;
+}
+footer {
+  min-height: 40vh;
+  background-color: #ebebeb;
+}
+
+.alert {
+  width: 50%;
+}
+.chart {
+  height: 40vh;
+  width: 50vw;
+  margin: 0 auto 5rem auto;
+}
+
+@media (max-width: 576px) {
+  .alert {
+    width: 80%;
+  }
+}

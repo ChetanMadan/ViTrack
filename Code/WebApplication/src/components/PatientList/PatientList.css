@@ -1,0 +1,7 @@
+.card {
+  min-height: 30vh;
+  box-shadow: 1px 1px 13px rgb(65, 65, 65);
+}
+.card:hover {
+  box-shadow: 1px 1px 10px 1px black;
+}
