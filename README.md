@@ -18,9 +18,9 @@ Vi-Track provides a way for people whose relatives are affected by the pandemic 
 	* Required node modules
 * Hardware 
 	* ARDUINO NANO 33 IOT (in video we have used NODE MCU, due to unavailability of the same) 
-* Pulse sensor 
-* Temperature sensor DS18B20 
-* Ecg Sensor AD8232 
+	* Pulse sensor 
+	* Temperature sensor DS18B20 
+	* Ecg Sensor AD8232 
 
 
 # Process Flow 
