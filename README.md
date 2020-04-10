@@ -14,7 +14,14 @@ Vi-Track provides a way for people whose relatives are affected by the pandemic 
 		* numpy (to manage numerical data)
 		* sklearn (to build the machine learning model)
 
-	* Node Package Manager (for required node modules)
+	* Node Package Manager
+	* Required node modules
+* Hardware 
+	* ARDUINO NANO 33 IOT (in video we have used NODE MCU, due to unavailability of the same) 
+* Pulse sensor 
+* Temperature sensor DS18B20 
+* Ecg Sensor AD8232 
+
 
 # Process Flow 
 
